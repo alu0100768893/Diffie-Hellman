@@ -18,14 +18,14 @@ Implementa el método de Diffie-Hellman en el lenguaje de programación que se d
 
 ### En la práctica se pidió realizar la siguiente modificación:
 ---
-La modificacion consiste en implementar el método de manera que puedan intervenir más de dos usuarios, con la peculiaridad de que sólo ejecutaremos la primera vuelta de la generación, dónde el último usuario es el que tendrá la clave generada por todos.
+La modificación consiste en implementar el método de manera que puedan intervenir más de dos usuarios, con la peculiaridad de que sólo ejecutaremos la primera vuelta de la generación, dónde el último usuario es el que tendrá la clave generada por todos.
 Si quisiéramos que todos tuviesen la clave, deberíamos hacer que todos y cada uno de ellos sea el último de la generacion, con lo que deberiamos ir rotándolos a todos una vez para que pudiesen obtener todos la clave final pasando una vez por la última posición de la generación.
 
 
 
 #### Para ejecutar: _"ruby main.rb"_
 ---
-Si se desea ejecutar la modificación de la práctica, en el directorio Modificacion:
+Si se desea ejecutar la modificación de la práctica, en el directorio _Modificacion_:
 >_ruby main-modificacion.rb_
 
 Si se desea ejecutar el ataque Man in the middle:
