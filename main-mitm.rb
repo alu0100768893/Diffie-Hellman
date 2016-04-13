@@ -36,8 +36,7 @@ xB = gets.chomp.to_i
 
 
 #----------------------------------------------------------------------
-#aqui comenzamos a realizar la modificacion, la cual consistira
-#en implementar el ataque Man-in-the-middle a Diffie-Hellman.
+#aqui comenzamos a realizar el ataque Man-in-the-middle a Diffie-Hellman.
 #datos de Mitm
 print "Introduzca el secreto del Man in the middle: "
 xM = gets.chomp.to_i

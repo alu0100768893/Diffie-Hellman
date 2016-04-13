@@ -34,7 +34,6 @@ class DiffieHellman
 
 	#Calculamos la K
 	def get_K
-		#@publickey_recibido**@secret % @p
 		exponenciacion_rapida(@publickey_recibido,@secret,@p)
 	end
 
@@ -42,7 +41,6 @@ class DiffieHellman
 	def mostrar_datos
 	puts "Los datos de #{@nombre} son: " <<
 	"\nY: " << get_Y.to_s <<
-	#"\nK: " << (@publickey_recibido**@secret % @p).to_s << "\n---------------------\n"
 	"\nK: " << get_K.to_s << "\n---------------------\n"
 
 	end

@@ -38,8 +38,8 @@ puts ""
 #Creamos a los usuarios, con sus correspondientes datos,
 #que van a realizar la comunicacion y a generar
 #mediante el metodo las claves:
-Alice = DeffieHellman.new("Alice",alfa,xA,p)
-Bob = DeffieHellman.new("Bob",alfa,xB,p)
+Alice = DiffieHellman.new("Alice",alfa,xA,p)
+Bob = DiffieHellman.new("Bob",alfa,xB,p)
 #Realizamos el intercambio de datos(Yalice->Bob,Ybob->Alice)
 Alice.enviar(Bob,Alice.get_Y)
 Bob.enviar(Alice,Bob.get_Y)
